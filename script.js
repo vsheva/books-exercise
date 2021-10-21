@@ -30,4 +30,4 @@ listOf5Book[8].before(listOf5Book[5])
 let listOf6Book = books[2].querySelectorAll('li');
 const newElem = document.createElement('li');
 newElem.innerHTML = '<b> Глава 8: За пределами ES6 </b>';
-listOf6Book[8].append(newElem);
+listOf6Book[8].after(newElem);
